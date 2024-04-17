@@ -24,6 +24,6 @@ docker build -t text-analysis-app .
 ## step 5 : Run the Docker Container
 
 ```bash
-docker run -it text-analysis-app "how are you"
+docker run -it text-analysis-app python main.py "how are you"
 ```
 
